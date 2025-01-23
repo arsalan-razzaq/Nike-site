@@ -4,9 +4,10 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import Header from './header';
+
 import '@fontsource/poppins';
 import Hero from './Hero';
+import Header from './Header';
 
 function App() {
   const [count, setCount] = useState(0)
